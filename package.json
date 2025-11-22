@@ -1,0 +1,63 @@
+{
+  "name": "electrolyx",
+  "version": "1.0.0",
+  "description": "MIT-licensed Electron toolkit for native macOS visual effects including window customization, rounded corners, and glass effects",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "npm run build:native && npm run build:ts",
+    "build:native": "node-gyp rebuild",
+    "build:ts": "tsc",
+    "install": "node-gyp rebuild",
+    "prepublishOnly": "npm run build",
+    "example": "cd example && npm install && npm start"
+  },
+  "keywords": [
+    "electron",
+    "macos",
+    "window",
+    "vibrancy",
+    "transparency",
+    "native",
+    "glass-effect",
+    "blur",
+    "rounded-corners",
+    "nsvisualeffectview",
+    "window-customization"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/electrolyx.git"
+  },
+  "bugs": {
+    "url": "https://github.com/yourusername/electrolyx/issues"
+  },
+  "homepage": "https://github.com/yourusername/electrolyx#readme",
+  "files": [
+    "dist/",
+    "build/Release/*.node",
+    "binding.gyp",
+    "README.md",
+    "LICENSE"
+  ],
+  "engines": {
+    "node": ">=16.0.0"
+  },
+  "os": [
+    "darwin"
+  ],
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "electron": "^28.0.0",
+    "node-gyp": "^10.0.0",
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "node-addon-api": "^7.0.0"
+  },
+  "peerDependencies": {
+    "electron": ">=20.0.0"
+  }
+}

@@ -1,0 +1,39 @@
+# Source files (dist/ is included)
+src/
+tsconfig.json
+
+# Development files
+.vscode/
+.idea/
+.claude/
+*.swp
+*.swo
+
+# Tests and examples (keep example/ out of npm package)
+example/
+
+# Documentation that's not needed in package
+*.md
+!README.md
+
+# Git files
+.git/
+.gitignore
+
+# Build artifacts that aren't needed
+build/obj.target/
+build/*.target.mk
+build/Makefile
+build/binding.Makefile
+build/config.gypi
+build/gyp-mac-tool
+build/.deps/
+build/node_modules/
+
+# Logs
+*.log
+npm-debug.log*
+
+# OS files
+.DS_Store
+Thumbs.db
