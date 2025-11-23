@@ -257,38 +257,6 @@ The vibrancy features use **public `NSVisualEffectView` APIs** that are:
 - Stable across macOS versions
 - Safe for Mac App Store submissions
 
-## Comparison with Commercial Alternatives
-
-### Electrolyx (This Library)
-- MIT Licensed (Free)
-- Basic rounded corner support (private APIs)
-- Full vibrancy/blur support (public APIs)
-- No commercial licensing required
-- Community-supported
-- Experimental/best-effort for private API features
-
-### super-browser-window-kit (Commercial)
-- Paid per-Bundle-ID licensing
-- Robust rounded corner implementation
-- Advanced liquid glass effects
-- Professional support
-- Extensively tested across macOS versions
-- Production-ready
-
-**When to use Electrolyx:**
-- Personal projects
-- Open source projects
-- Learning/experimentation
-- Budget constraints
-- Standard vibrancy effects are sufficient
-
-**When to use commercial alternatives:**
-- Production applications
-- Mac App Store submissions
-- Enterprise applications
-- Need guaranteed macOS compatibility
-- Require professional support
-
 ## Building from Source
 
 ```bash

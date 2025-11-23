@@ -16,6 +16,9 @@ npm-debug.log*
 Thumbs.db
 
 # IDE
+.claude/
+.gitattributes
+.npmignore
 .vscode/
 .idea/
 *.swp
