@@ -1,6 +1,6 @@
 {
   "name": "electrolyx",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "MIT-licensed Electron toolkit for native macOS visual effects including window customization, rounded corners, and glass effects",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -37,7 +37,7 @@
   "homepage": "https://github.com/yourusername/electrolyx#readme",
   "files": [
     "dist/",
-    "build/Release/*.node",
+    "src/native/",
     "binding.gyp",
     "README.md",
     "LICENSE"
